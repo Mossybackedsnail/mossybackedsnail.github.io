@@ -5,6 +5,7 @@
 </head>
 <html lang="en">
     <body>
+        <button id="dark-mode-toggle" class="btn" style="float: left;">☾ </button>
         {%- include navigation.html -%}
         <div class="content">
             <main>
@@ -12,4 +13,16 @@
             </main>
         </div>
     </body>
+    <script>
+        const toggleButton = document.getElementById('dark-mode-toggle');
+        toggleButton.addEventListener('click', () => {
+        document.body.classList.toggle('dark-mode');
+        if(document.body.classList.contains('dark-mode')){
+            toggleButton.textContent = "☼";
+        }
+        else{
+            toggleButton.textContent = "☾";
+        }
+        });
+    </script>
 </html>

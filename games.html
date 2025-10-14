@@ -1,0 +1,24 @@
+---
+layout: default
+title: Home
+---
+
+<div>
+<div class="list">
+<h1>Games</h1>
+{%- for year in site.data.gamejams.games -%}
+<h2>{{ year.year }}</h2>
+    {%- for game in year.games -%}
+    <ul>
+        <li>
+            <details>
+                <summary>{{ game.name }}</summary>
+                {{ game.jam }}
+                <br>Score: {{ game.rating }}
+            </details>
+        </li>
+    </ul>
+    {%- endfor -%}
+{%- endfor -%}
+</div>
+</div>

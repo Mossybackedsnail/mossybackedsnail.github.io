@@ -6,9 +6,9 @@ sass:
   sass_dir: assets/styles
 
 collections:
-  writeups:
+  CTF-Writeups:
     output: true
-    permalink: /:writeups/:path
+    permalink: /collections:/:name
 
 exclude:
 - README.md

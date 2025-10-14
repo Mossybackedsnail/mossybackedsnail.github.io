@@ -2,26 +2,72 @@
 ---
 
 body{
-    background-color: white;
+    background-color: #F0F0F0;
     font-family: 'Courier New';
+}
+@media(prefers-color-scheme: dark){
+body.dark-mode {
+  background-color: #333;
+  color: white;
+  a:link{
+    color: lightblue;
+    }
+  a:visited {
+    color: lightblue;
+    }
+  .btn{
+    background-color: #222;
+    color: white;
+  }
+}
+}
+
+a:visited {
+    color: blue;
+}
+
+.btn {
+    background-color: #DDD;
+    border: 1px;
+    border-radius: 2px;
+    font-size: x-large;
+    aspect-ratio: 1/1;
+    margin: 5px;
 }
 
 ul {
-  list-style: none; /* Removes default bullet points */
-  padding: 0;        /* Removes default left padding */
-  margin: 0;         /* Removes default margins */
-  display: flex;
-  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
+.block {
+    display: inline-block;
+  margin-right: 10px;
+  padding: 10px;
+  border-style: solid;
 }
 
 ul li {
-  display: inline-block; /* Makes list items appear side-by-side */
-  margin-right: 10px;    /* Adds spacing between items */
-  padding: 10px;
-  border-style: solid;
+    padding: 5px;
 }
 
 .open {
     border-bottom: solid;
     padding-bottom: 10px;
+}
+
+.list{
+    display: flexbox;
+    float: left;
+}
+
+.pagemedia {
+    display: flexbox;
+    float: right;
 }
