@@ -1,0 +1,11 @@
+title: Personal Site
+description: My site
+baseurl: "/"
+
+sass:
+  sass_dir: assets/styles
+
+collections:
+  writeups:
+    output: true
+    permalink: /:writeups/:path

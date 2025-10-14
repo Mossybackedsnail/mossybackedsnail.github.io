@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<head>
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ "assets/styles/global.css" | relative_url }}">
+</head>
+<html lang="en">
+    <body>
+        {%- include navigation.html -%}
+        <div class="content">
+            <main>
+                {{ content }}
+            </main>
+        </div>
+    </body>
+</html>

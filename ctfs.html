@@ -1,0 +1,22 @@
+---
+layout: default
+title: Home
+---
+
+<h1>Writeups</h1>
+{%- for comp in site.CTF-Writeups -%}
+    <ul>
+        <li>
+            {{- comp.label -}}
+            <ul>
+                <li>
+                    {%- for chall in comp -%}
+                    <details>
+                        <summary>{{- chall -}}</summary>
+                    </details>
+                    {%- endfor -%}
+                </li>
+            </ul>
+        </li>
+    </ul>
+{%- endfor -%}

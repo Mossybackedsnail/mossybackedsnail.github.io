@@ -1,0 +1,27 @@
+---
+---
+
+body{
+    background-color: white;
+    font-family: 'Courier New';
+}
+
+ul {
+  list-style: none; /* Removes default bullet points */
+  padding: 0;        /* Removes default left padding */
+  margin: 0;         /* Removes default margins */
+  display: flex;
+  justify-content: center;
+}
+
+ul li {
+  display: inline-block; /* Makes list items appear side-by-side */
+  margin-right: 10px;    /* Adds spacing between items */
+  padding: 10px;
+  border-style: solid;
+}
+
+.open {
+    border-bottom: solid;
+    padding-bottom: 10px;
+}

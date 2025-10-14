@@ -1,0 +1,7 @@
+<nav class="open">
+    <ul id="horizontal-list">
+        {%- for entry in site.data.navbar -%}
+            <li><a href="{{entry.href}}" title="{{entry.name}}" style="text-decoration: none;">{{- entry.name -}}</a></li>
+        {%- endfor -%}
+    </ul>
+</nav>

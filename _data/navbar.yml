@@ -1,0 +1,8 @@
+- name: Home
+  href: /
+
+- name: CTFs
+  href: /ctfs
+
+- name: Games
+  href: /games
