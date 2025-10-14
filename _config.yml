@@ -9,3 +9,6 @@ collections:
   writeups:
     output: true
     permalink: /:writeups/:path
+
+exclude:
+- README.md
