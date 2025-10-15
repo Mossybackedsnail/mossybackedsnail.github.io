@@ -9,6 +9,10 @@ games:
         rating: 1st place
   - year: 2023
     games:
+      - name: Dating Sim's Stagehand
+        jam: ??? (No records exist)
+        time: ???
+        rating: ???
   - year: 2022
     games:
       - name: Bet on It
