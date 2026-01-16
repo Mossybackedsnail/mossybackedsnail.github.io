@@ -1,6 +1,8 @@
 ---
 ---
-
+* {
+  box-sizing: border-box;
+}
 body{
     background-color: #F0F0F0;
     font-family: 'Courier New';
@@ -46,11 +48,12 @@ ul {
     justify-content: center;
 }
 
-.block {
+.navitem {
     display: inline-block;
   margin-right: 10px;
   padding: 10px;
   border-style: solid;
+  position: relative;
 }
 
 ul li {
@@ -70,4 +73,14 @@ ul li {
 .pagemedia {
     display: flexbox;
     float: right;
+}
+
+fieldset {
+  align-items: center;
+  padding-left: 1%;
+  border: 1px solid;
+  border-color: #686868;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
