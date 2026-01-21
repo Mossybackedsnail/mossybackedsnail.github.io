@@ -6,6 +6,7 @@
 body{
     background-color: #F0F0F0;
     font-family: 'Courier New';
+    height: 100%;
 }
 @media(prefers-color-scheme: dark){
 body.dark-mode {
@@ -22,6 +23,23 @@ body.dark-mode {
     color: white;
   }
 }
+}
+
+.content {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20%;
+}
+
+main{
+  flex: 1;
 }
 
 a:visited {
@@ -83,4 +101,9 @@ fieldset {
   display: flex;
   flex-direction: column;
   text-align: center;
+}
+
+.floating{
+	transition: transform linear;
+  transition-duration: 2s;
 }
