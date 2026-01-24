@@ -22,6 +22,9 @@ body.dark-mode {
     background-color: #222;
     color: white;
   }
+  .btn:hover{
+    background-color: #444;
+  }
 }
 }
 
@@ -51,8 +54,12 @@ a:visited {
     border: 1px;
     border-radius: 2px;
     font-size: x-large;
+    width: 1.5em;
     aspect-ratio: 1/1;
     margin: 5px;
+}
+.btn:hover{
+  background-color: #BBB;
 }
 
 ul {
@@ -105,5 +112,4 @@ fieldset {
 
 .floating{
 	transition: transform linear;
-  transition-duration: 2s;
 }
