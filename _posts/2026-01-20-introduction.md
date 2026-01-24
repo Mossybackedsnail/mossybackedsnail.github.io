@@ -14,7 +14,7 @@ One of my recent projects has been a sticky-note web app written in Typescript a
 
 I've also been migrating over to Linux! Ever since updating from Windows 10 -> 11 on my desktop I've been having issues with bloat (Microsoft pushing their 365 subscription, copilot, etc...) Ultimately I think switching to Linux is the move. Especially considering that the Linux version of Steam comes with Proton preinstalled! The only two games (to my knowledge) I'm getting locked out of are Valorant and LoL because both of them use a Kernel level anticheat that doesn't have a linux counterpart. *shakes fist*
 
-I've already set up [Nobara](https://nobaraproject.org/), a fedora fork centered on media creation, on my backup laptop to see how I like it and it's been wonderful. It comes with Nvidia drivers preconfigured as well as all of the main media codecs already set up.
+I've already set up [Nobara](https://nobaraproject.org/){:target="_blank"} , a fedora fork centered on media creation, on my backup laptop to see how I like it and it's been wonderful. It comes with Nvidia drivers preconfigured as well as all of the main media codecs already set up.
 
 Welp, thats all I've been up to lately relevant to my tech sphere so I'll probably only make another post once something interesting happens.
 
