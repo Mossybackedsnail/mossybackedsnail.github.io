@@ -3,12 +3,18 @@
 * {
   --lmfc: black;
   --dmfc: white;
+  --lmhl: #bd9102;
+  --dmhl: #ffe180;
   box-sizing: border-box;
 }
 body{
     background-color: #F0F0F0;
     font-family: 'Courier New';
-    height: 100%;
+    height: 100vh;
+}
+
+footer{
+  vertical-align: bottom;
 }
 
 @media only screen and (max-width: 560px) {
@@ -39,6 +45,9 @@ body.dark-mode {
   }
   a[target="_blank"]:after{
     content: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2210%22%20height%3D%2210%22%20viewBox%3D%220%200%2010%2010%22%20fill%3D%22white%22%3E%3Cpath%20d%3D%22M8.5%208.5H1.5V1.5H4v-1H1.5a1%201%200%200%200%20-1%201v7a1%201%200%200%200%201%201h7a1%201%200%200%200%201%20-1V6h-1z%22%2F%3E%3Cpath%20d%3D%22M9.5%200.5h-4l1.646%201.646L4.28%205.01l0.71%200.71%202.866%20-2.866%201.644%201.646z%22%2F%3E%3Cscript%2F%3E%3C%2Fsvg%3E");
+  }
+  .highlight{
+    color: var(--dmhl) !important;
   }
 }
 }
@@ -96,6 +105,7 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  white-space: nowrap;
 }
 
 .centered {
@@ -142,4 +152,12 @@ fieldset {
 
 .floating{
 	transition: transform linear;
+}
+
+.highlight{
+  color: var(--lmhl) !important;
+}
+
+.glow {
+  text-shadow: 0 0 0px currentColor, 0 0 5px currentColor;
 }
